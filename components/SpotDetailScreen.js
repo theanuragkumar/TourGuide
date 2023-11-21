@@ -1,39 +1,50 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, ScrollView, Image, StyleSheet, Dimensions } from 'react-native';
 
 const SpotDetailScreen = ({ route }) => {
   const { spot } = route.params;
 
   return (
-    <View style={styles.container}>
-      <Image source={{ uri: spot.image }} style={styles.image} />
-      <Text style={styles.title}>{spot.title}</Text>
-      <Text style={styles.description}>{spot.description}</Text>
-    </View>
+    <ScrollView style={styles.container}>
+      <View>
+        <ScrollView horizontal pagingEnabled>
+          {spot.images.map((image, index) => (
+            <Image key={index} source={{ uri: image }} style={styles.image} />
+          ))}
+        </ScrollView>
+      </View>
+      <View style={styles.content}>
+        <Text style={styles.title}>{spot.title}</Text>
+        <Text style={styles.description}>{spot.description}</Text>
+      </View>
+    </ScrollView>
   );
 };
+
+const windowWidth = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  content: {
+    marginTop: 10,
+    paddingHorizontal: 20,
+    paddingBottom: 20,
   },
   image: {
-    width: 200,
+    width: windowWidth,
     height: 200,
-    borderRadius: 10,
-    marginBottom: 10,
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    textAlign: 'center',
     marginBottom: 10,
   },
   description: {
     fontSize: 16,
     textAlign: 'center',
-    paddingHorizontal: 20,
   },
 });
 
