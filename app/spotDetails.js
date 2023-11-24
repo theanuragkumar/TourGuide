@@ -1,14 +1,15 @@
+import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { View, Text, ScrollView, Image, StyleSheet, Dimensions } from 'react-native';
 
-const SpotDetailScreen = ({ route }) => {
-  const { spot } = route.params;
+const Page = () => {
+let spot=useLocalSearchParams();
 
   return (
     <ScrollView style={styles.container}>
       <View>
         <ScrollView horizontal pagingEnabled>
-          {spot.images.map((image, index) => (
+          {spot?.images?.map((image, index) => (
             <Image key={index} source={{ uri: image }} style={styles.image} />
           ))}
         </ScrollView>
@@ -48,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SpotDetailScreen;
+export default Page;

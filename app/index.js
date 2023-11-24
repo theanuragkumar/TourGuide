@@ -1,9 +1,11 @@
-import React from "react";
-import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
-import MapView, { Marker } from "react-native-maps";
-// import { addSpot, fetchSpots, initializeDatabase } from './../Database';
+import React from 'react';
+import MapView,{ Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+import { StyleSheet, View } from 'react-native';
+import { useNavigation } from 'expo-router';
 
-const MapScreen = ({ navigation }) => {
+
+export default function Page() {
+const nav=useNavigation();
   const touristSpots = [
     {
       id: 1,
@@ -45,39 +47,41 @@ const MapScreen = ({ navigation }) => {
     },
   ];
 
+
   return (
     <View style={styles.container}>
-      <MapView
-        style={styles.map}
-        initialRegion={{
-          latitude: 18.9389,
-          longitude: 72.8258,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}
+      <MapView style={styles.map}
+      provider={PROVIDER_GOOGLE} 
+      initialRegion={{
+        latitude: 18.9389,
+        longitude: 72.8258,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421,
+      }}
       >
-        {touristSpots.map((spot) => (
+  {touristSpots?.map((spot) => (
           <Marker
             key={spot.id}
             coordinate={spot.coordinates}
             title={spot.title}
             onPress={() => {
-              navigation.navigate("SpotDetail", { spot });
+             nav.navigate('spotDetails',spot)
             }}
           />
         ))}
-      </MapView>
+
+        </MapView>
+
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
   map: {
-    flex: 1,
+    width: '100%',
+    height: '100%',
   },
 });
-
-export default MapScreen;
