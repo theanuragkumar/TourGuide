@@ -25,7 +25,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "${MAPS_API_KEY}"
+          "apiKey": "AIzaSyB77YshREiafXEk_-zvPM55DdnYpzbelak"
         }
       },
       "package": "com.slashflash.TourGuidev2"
