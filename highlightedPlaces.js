@@ -72,7 +72,7 @@ export const route1Places=[
     
     Committed to heritage preservation, the Royal Bombay Yacht Club's interiors are a treasure trove of artifacts, trophies, and naval paraphernalia, offering an immersive experience for those fascinated by maritime history. The club serves not only as a venue for sports and social events but also as a gateway to maritime exploration. It opens doors for sailing enthusiasts with courses, yacht charters, and opportunities to partake in competitive regattas, ensuring that the spirit of maritime adventure lives on in the waters surrounding Mumbai. Whether hosting formal dinners or casual gatherings, the club creates an environment where members can share their love for the sea, fostering a sense of camaraderie that transcends time and tides.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.paperjewels.org%2Fpostcard%2Froyal-bombay-yacht-club-0&psig=AOvVaw2TOC8P2muwkyrDq1htaciV&ust=1701149506444000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiL2PG544IDFQAAAAAdAAAAABAZ"
+    "images": ["https://www.paperjewels.org/sites/default/files/slides/royal-bombay-yacht-club.jpg"
     ,"https://content.api.news/v3/images/bin/bbde634ea990203e1d16e72b5b8fe150?width=2048"]
   },
   {
@@ -95,10 +95,9 @@ export const route1Places=[
 
     Situated in the heart of South Mumbai, Dhanraj Mahal is a landmark in itself, conveniently located for those exploring the city's historic and cultural treasures. Whether one is drawn to its architectural finesse, cultural significance, or as a venue for events, Dhanraj Mahal remains a timeless symbol of Mumbai's past, present, and future.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artdecomumbai.com%2Finventory%2Fdhanraj-mahal%2F&psig=AOvVaw0Dy9g8IyxEMFc6EygDdqld&ust=1701149683573000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjFx8e644IDFQAAAAAdAAAAABAE", 
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artdecomumbai.com%2Finventory%2Fdhanraj-mahal%2F&psig=AOvVaw3q4LthyGZ9xhVCs44ldkvC&ust=1701149718955000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPi1_da644IDFQAAAAAdAAAAABAJ",
-  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.moneycontrol.com%2Fnews%2Ftrends%2Flifestyle%2Fmumbai-restaurant-art-deco-meets-the-colours-and-flavours-of-india-at-bombay-brasserie-10235961.html&psig=AOvVaw3q4LthyGZ9xhVCs44ldkvC&ust=1701149718955000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPi1_da644IDFQAAAAAdAAAAABAO"
-  ]
+    "images":[
+      "https://www.artdecomumbai.com/wp-content/uploads/2017/06/INN_Colaba_Dhanraj-Mahal_10e-1.jpg",
+    "https://www.artdecomumbai.com/wp-content/uploads/2017/06/INN_Colaba_Dhanraj-Mahal_10a.jpg"]
   },
   {
     "id": 4,
@@ -116,10 +115,8 @@ Occasionally opening its doors to the public, the dockyard fosters awareness and
 Amidst its bustling activities, the Naval Dockyard offers striking waterfront views of the Arabian Sea. The serene environment, coupled with the dockyard's significant role in enhancing maritime security, underscores its contributions to safeguarding India's interests at sea.
 While embracing the rich history and culture, visitors are reminded to adhere to security guidelines, as certain areas of the dockyard may be restricted due to its strategic nature. Respecting the confidentiality associated with naval operations further underscores the critical role played by the Naval Dockyard in securing the nation's maritime interests.
 `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Flocalpress.co.in%2Fmumbai%2Ffire-mumbais-naval-dockyard-2-navy-patrol-boats-sink%2F&psig=AOvVaw1U1tU8XcZ4pCIGfAcrLmyp&ust=1701149828522000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDzlYu744IDFQAAAAAdAAAAABAh", 
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnewsonair.gov.in%2FNews%3Ftitle%3DINS-Gomati-decommissioned-at-Naval-Dockyard-in-Mumbai%26id%3D441799&psig=AOvVaw1U1tU8XcZ4pCIGfAcrLmyp&ust=1701149828522000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDzlYu744IDFQAAAAAdAAAAABA4",
-  "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwikimapia.org%2F6292642%2FNaval-Dockyard-Bombay-Dockyard&psig=AOvVaw1U1tU8XcZ4pCIGfAcrLmyp&ust=1701149828522000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDzlYu744IDFQAAAAAdAAAAABBI"
-  ]
+"images":["https://localpress.co.in/wp-content/uploads/2016/07/fire-at-mumbais-naval-dockyard-2-navy-patrol-boats-sink-2-optimized.jpg"
+,"https://newsonair.gov.in/writereaddata/News_Pictures/NAT/2022/May/NPIC-202252991047.jpg"]
   },
   {
     "id": 5,
@@ -134,10 +131,9 @@ Beyond being a repository of knowledge, the Asiatic Library functions as a cultu
 Scholars and researchers across diverse fields are drawn to the library's extensive reference section, making it a vital reference point for academic pursuits in the region. Referred to as the "People's Library," the Asiatic Library opens its doors to the public, inviting visitors to explore its reading rooms and access a wealth of knowledge.
 With a literary legacy dating back to the 17th century, the library plays a crucial role in preserving India's cultural and historical heritage through its vast archives. Boasting rare manuscripts, maps, prints, and an extensive collection of Indology, the Asiatic Library serves as a gateway to India's past, offering invaluable resources for researchers and history enthusiasts alike. In essence, it stands as a testament to the enduring importance of knowledge and culture in the heart of Mumbai.
 `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fmumbaitourism.travel%2Fasiatic-society-mumbai-town-hall&psig=AOvVaw2wWWlvP5bpmlVCQ9fLmyC2&ust=1701149990995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDZ0Ni744IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mid-day.com%2Fmumbai%2Fmumbai-news%2Farticle%2Fmumbai-tweet-screams-imposter-alert-as-asiatic-society-warns-about-scam-23254728&psig=AOvVaw2wWWlvP5bpmlVCQ9fLmyC2&ust=1701149990995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDZ0Ni744IDFQAAAAAdAAAAABAJ",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgulfnews.com%2Fworld%2Fasia%2Findia%2Findia-historic-library-in-mumbai-gets-restored-1.1988510&psig=AOvVaw2wWWlvP5bpmlVCQ9fLmyC2&ust=1701149990995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDZ0Ni744IDFQAAAAAdAAAAABAp"
-    ]
+"images":["https://images.mid-day.com/images/images/2022/nov/scoety-red-pic-a_d.jpg"
+,
+"https://imagevars.gulfnews.com/2017/3/5/1_16a08427e15.1988545_2226019263_16a08427e15_large.jpg"]
   },
   {
     "id": 6,
@@ -160,10 +156,9 @@ With a literary legacy dating back to the 17th century, the library plays a cruc
     
     With a reputation for stability and resilience, RBI's Mumbai operations contribute significantly to India's financial and economic well-being. The institution's enduring commitment to financial stability, monetary policy, and inclusive development underscores its indispensable position in the nation's economic framework.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livemint.com%2FIndustry%2FIEORebKYYjgAnI2rRhMcTJ%2FRBI-should-be-ready-to-raise-rates-MPCs-Michael-Patra.html&psig=AOvVaw2SjzykPXLehyDZZHOhi2bk&ust=1701150167211000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiY4ay844IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.centralbanking.com%2Fcentral-banks%2Ffinancial-stability%2F2451306%2Fbanks-start-to-clean-up-balance-sheets-after-rbi-asset-quality-review&psig=AOvVaw2SjzykPXLehyDZZHOhi2bk&ust=1701150167211000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiY4ay844IDFQAAAAAdAAAAABAR",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hindustantimes.com%2Fbusiness-news%2Freserve-bank-of-india-to-pay-rs-28-000-crore-interim-dividend-to-government%2Fstory-nuLgNjhAXCeBeKSGT5OJON.html&psig=AOvVaw2SjzykPXLehyDZZHOhi2bk&ust=1701150167211000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiY4ay844IDFQAAAAAdAAAAABAZ"
-  ]
+    "images": ["https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/10/19/Photos/Processed/rbi-kLeB--621x414@LiveMint.jpg",
+    "https://www.centralbanking.com/sites/default/files/styles/landscape_750_463/public/import/IMG/251/282251/reserve-bank-of-india-mumbai-580x358.jpg?itok=p7aZPJdg"
+   ]
   },
   {
     "id": 7,
@@ -178,9 +173,10 @@ With a literary legacy dating back to the 17th century, the library plays a cruc
     The ships crafted at Mazagon Dock are emblematic of national pride and technological prowess, serving as a testament to India's capabilities in the maritime sector. These vessels contribute substantially to the country's self-reliance in defense manufacturing. Moreover, Mazagon Dock has actively engaged in collaborative endeavors with international entities, fostering knowledge exchange and contributing to the global maritime community.
     While access to operational areas may be restricted for security reasons, visitors can still explore the external areas of the shipyard to catch glimpses of ongoing construction activities. Additionally, visitor centers or informational exhibits may provide valuable insights into Mazagon Dock's contributions to the maritime industry. Overall, Mazagon Dock Shipbuilders stands as a historical, strategic, and technological cornerstone, shaping India's maritime legacy and global standing in shipbuilding.
     `,
-    "images": [ "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmaharashtratimes.com%2Fcareer%2Fcareer-news%2Fmazgaon-dock-shipbuilders-limited-recruitment%2Farticleshow%2F94263786.cms&psig=AOvVaw3bWAD0xNWrcnPfKmn-oGfS&ust=1701150251590000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCBhdW844IDFQAAAAAdAAAAABAQ",
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FMDLMumbai%2F&psig=AOvVaw3bWAD0xNWrcnPfKmn-oGfS&ust=1701150251590000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCBhdW844IDFQAAAAAdAAAAABAE", 
-     ]
+    "images": [
+      "https://maharashtratimes.com/thumb/94263858/mazagon-dock-recruitment-94263858.jpg?imgsize=149506&width=700&height=525&resizemode=75",
+      "https://scontent.fpnq8-1.fna.fbcdn.net/v/t39.30808-6/302552072_475006747971338_3549187176034504413_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YlZjMV68--oAX9qf5-C&_nc_ht=scontent.fpnq8-1.fna&oh=00_AfCYAmuaH1PmfWtyeIW0tdJKVeCP1kyjsE0HuVp1D4hQXQ&oe=656A33DC"
+  ]
   },
   {
     "id": 8,
@@ -194,8 +190,10 @@ With a literary legacy dating back to the 17th century, the library plays a cruc
     RCF's fertilizers significantly contribute to enhancing agricultural productivity, supporting food security, and fostering the overall growth of India's agricultural sector. Beyond production, the company actively engages with local communities through initiatives related to education, healthcare, and infrastructure development, demonstrating a commitment to social responsibility.
     Operating under the administrative control of the Department of Fertilizers, Ministry of Chemicals and Fertilizers, Government of India, RCF plays an integral role in national development. The company adheres to stringent quality control measures, ensuring that its fertilizers meet required standards, enhancing their effectiveness for farmers.
     With a notable presence in the Indian market, RCF remains adaptive to changing market dynamics, addressing the evolving needs of farmers and the agricultural sector. As a cornerstone in India's agricultural landscape, RCF continues its dedication to sustainable practices, innovation, and quality, contributing significantly to the nation's agricultural prosperity.`,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F194366733950646%2F&psig=AOvVaw0CIt4r1AwN_C2UhfNrlMod&ust=1701150347762000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDj54K944IDFQAAAAAdAAAAABAY",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fvajiramias.com%2Fcurrent-affairs%2Fmethanol%2F5f5ef1821d5def3376eb2611%2F&psig=AOvVaw25UKd0IrasmW6XvC7M1tJy&ust=1701150460536000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDwyLi944IDFQAAAAAdAAAAABAQ"]
+    "images": [
+      "https://scontent.fpnq8-1.fna.fbcdn.net/v/t39.30808-6/237218792_4338128286253683_8212925207836557615_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KOa0_3RHuEYAX8-rIdG&_nc_ht=scontent.fpnq8-1.fna&oh=00_AfBEdQ-zFoeO4Q1tV5gUK52YYK87CfIlz5IsMrB5soiEZg&oe=6569600C",
+      "https://vajiramandravi.s3.us-east-1.amazonaws.com/media/2020/9/14/9/58/13/trombay.jpg"
+  ]
   },
   {
     "id": 9,
@@ -205,9 +203,11 @@ With a literary legacy dating back to the 17th century, the library plays a cruc
       "longitude": 72.9105
     },
     "description": "Tata Consultancy Services campus",
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quora.com%2FWill-it-be-good-to-go-to-Powai-Mumbai-to-work-in-TCS-for-a-fresher&psig=AOvVaw0F_rdokBSmm5C5yavNxyYI&ust=1701150571118000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJi6pu2944IDFQAAAAAdAAAAABAo",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fproperties.cityinfoservices.com%2Foffice-space-for-rent-in-powai-mumbai%2Fsrp&psig=AOvVaw0F_rdokBSmm5C5yavNxyYI&ust=1701150571118000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJi6pu2944IDFQAAAAAdAAAAABA_"]
-  }
+    "images": [
+      "https://sightsinplus.com/wp-content/uploads/2023/05/TCS-plans-to-hire-40000-freshers-in-FY24.jpg",
+      "https://cf-cdn.cityinfoservices.com/public/uploads/project/images/large/21162a87af45b97aKensington%20SEZ%20-%20Mumbai.jpg"
+    ]
+    }
 ]
 
 
@@ -220,9 +220,9 @@ export const route2Places=[
       "longitude": 72.857302
     },
     "description": "Serene park with a historic banyan tree",
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwfmmedia.com%2Ftcs-banyan-park-mumbai-a-project-in-response-to-a-digital-campus%2F&psig=AOvVaw2Einh4-y-qtMo-EPB0RT8r&ust=1701150672808000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCg4p2-44IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.world-architects.com%2Fen%2Fsomaya-and-kalappa-mumbai%2Fproject%2Ftcs-banyan-park&psig=AOvVaw2Einh4-y-qtMo-EPB0RT8r&ust=1701150672808000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCg4p2-44IDFQAAAAAdAAAAABAZ"]
-  },
+    "images": [
+      "https://wfmmedia.com/wp-content/uploads/2020/07/featured-2.jpg"]
+     },
   {
     "id": 11,
     "title": "Bandra Worli Sea-link",
@@ -237,9 +237,10 @@ export const route2Places=[
     As an iconic landmark, the Bandra-Worli Sea Link symbolizes Mumbai's dynamic growth and modernization. It has become a popular feature in movies, advertisements, and a hotspot for photography enthusiasts. Its significance extends beyond transportation, contributing to efficient traffic management in the bustling city.
     For tourists and locals alike, the Sea Link is not just a means of travel but a destination in itself. Whether appreciating its impressive architecture, enjoying scenic views, or simply experiencing the city's progress, the Bandra-Worli Sea Link remains a must-visit attraction, embodying the spirit of Mumbai's vibrant landscape.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.in%2FAttraction_Review-g304554-d2704519-Reviews-Bandra_Worli_Sea_Link-Mumbai_Maharashtra.html&psig=AOvVaw1qqBL_Xfi4qvbtAYpWODm1&ust=1701150744375000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiR8b--44IDFQAAAAAdAAAAABAJ",
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Fcity%2Fmumbai%2Fman-jumps-into-sea-from-bandra-worli-sea-link%2Farticleshow%2F102269081.cms&psig=AOvVaw1qqBL_Xfi4qvbtAYpWODm1&ust=1701150744375000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiR8b--44IDFQAAAAAdAAAAABAE",
-    ]
+    "images": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/12/d3/17/bandra-worli-sea-link.jpg?w=1200&h=-1&s=1",
+      "https://static.toiimg.com/thumb/msid-102269340,imgsize-32664,width-400,resizemode-4/102269340.jpg"
+       ]
   },
   {
     "id": 12,
@@ -251,8 +252,8 @@ export const route2Places=[
     "description": `Nestled on an islet in the Arabian Sea, Haji Ali Dargah stands as a testament to Mumbai's spiritual and architectural richness. The mausoleum, adorned with whitewashed domes and intricate marble patterns, beckons visitors from all faiths to experience its unique charm. The historical significance of this 15th-century monument is complemented by its breathtaking views of the Mumbai skyline, creating a serene haven amidst the bustling city. Beyond religious pursuits, the dargah becomes a cultural focal point during festivals, resonating with devotional music and rituals. Managed by a philanthropic trust, it not only symbolizes faith and unity but also actively contributes to the welfare of the community.
     `,
     "images": [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.makemytrip.com%2Ftripideas%2Fattractions%2Fexperience-serenity-at-haji-ali-dargah&psig=AOvVaw1OuOFSDkAlH8e7x4GrnG2S&ust=1701150799576000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjCmtq-44IDFQAAAAAdAAAAABAJ",
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailysabah.com%2Farts%2Fhaji-ali-dargah-spiritual-islamic-abode-in-mumbai%2Fnews&psig=AOvVaw1OuOFSDkAlH8e7x4GrnG2S&ust=1701150799576000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjCmtq-44IDFQAAAAAdAAAAABAE",
+      "https://hblimg.mmtcdn.com/content/hubble/img/mumbai/mmt/activities/m_activities_mumbai_haji_ali_dargah_l_516_1113.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/10/06/thumbs/800x531/150249.jpg?v=1633528872"
     ]
   },
   {
@@ -274,9 +275,11 @@ export const route2Places=[
     
     Given its high-profile residents, security at Antilia is paramount. Advanced measures ensure the privacy and safety of the Ambani family, adding an extra layer of intrigue to this symbol of wealth and prosperity in the bustling city of Mumbai.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fdesignaddict.com%2Fthe-most-expensive-home-in-the-world-antilia%2F&psig=AOvVaw2c7nJX-8NO9btnSS_PqZSZ&ust=1701150853797000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDXhvS-44IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abplive.com%2Fphoto-gallery%2Fentertainment%2Fantilia-house-is-the-second-most-expensive-house-in-the-world-know-which-of-the-27-and-how-many-floors-the-ambani-family-lives-on-1729879&psig=AOvVaw2c7nJX-8NO9btnSS_PqZSZ&ust=1701150853797000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDXhvS-44IDFQAAAAAdAAAAABAR"]
-  },
+    "images": [
+      "https://designaddict.com/wp-content/uploads/2020/02/1yL5-FBWBGY3AbBLHc2Vgsw.jpeg",
+      "https://static.abplive.com/wp-content/uploads/sites/2/2021/01/19014710/Antillia.jpg?impolicy=abp_cdn&imwidth=480"
+]
+},
   {
     "id": 14,
     "title": "Marine Drive",
@@ -292,8 +295,10 @@ export const route2Places=[
     
     Lined with an array of restaurants and cafes, Marine Drive is a culinary haven. Whether savoring local street food or indulging in fine dining, visitors can relish diverse cuisines while soaking in the mesmerizing sea view. Marine Drive stands as a captivating blend of architectural elegance, natural beauty, and cultural vibrancy. It is a testament to Mumbai's resilience and offers a delightful escape for locals and visitors alike.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.touringscout.in%2F2023%2F02%2Fmarine-drive.html&psig=AOvVaw19OEE6Wy-K3hcZPZqLbPLU&ust=1701150902530000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDMrYu_44IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripsavvy.com%2Fmumbai-marine-drive-the-complete-guide-4582806&psig=AOvVaw19OEE6Wy-K3hcZPZqLbPLU&ust=1701150902530000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDMrYu_44IDFQAAAAAdAAAAABAR"]
+    "images": [
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyKcvywebikF49lbMMqtr9Eb3cWfTKQLcR5KWcYjp3GZPuGk5VUS7exP4DzrjNv_7nEGUETl6VbiI-2vPFuO4dbfd5Ty49cTqXjppBTKZaRn6zcK8B9lMvEVNLqsV7U2afw6GOfNTcCFfnd8r99aiIPrLsYK14efvNnSThKfOSqHIfdMzg0eYKrWZp/w621-h413/Marine_Lines_Mumbai_2021.jpg",
+      "https://www.tripsavvy.com/thmb/giBilVddbHx3S2Y7khcvYlf3ogY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1008831236-5c65d6bf4cedfd00014aa310.jpg"
+  ]
   },
   {
     "id": 15,
@@ -309,9 +314,10 @@ export const route2Places=[
     Beyond grand structures, Art Deco brings accessible beauty into everyday life, adorning apartment complexes and storefronts. The movement aimed to infuse artistry into the mundane, making its aesthetic appeal an integral part of daily urban experiences.
     For photography enthusiasts, Art Deco buildings offer a treasure trove of opportunities. Capturing the intricate details, vibrant colors, and symmetrical designs during different times of the day highlights the timeless allure of Art Deco architecture, ensuring its continued appreciation and influence in the years to come.
     `,
-    "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artdecomumbai.com%2Fresearch%2Fart-deco-in-mumbai-the-oval-marine-drive%2F&psig=AOvVaw1_X5WjKtS1s3bLIitRXQVn&ust=1701150951150000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjauaK_44IDFQAAAAAdAAAAABAE",
-     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.outlookindia.com%2Ftraveller%2Fregulars%2Fmumbais-art-deco-now-a-unesco-heritage-site%2F&psig=AOvVaw1_X5WjKtS1s3bLIitRXQVn&ust=1701150951150000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjauaK_44IDFQAAAAAdAAAAABAJ"]
-  },
+    "images": [
+      "https://www.artdecomumbai.com/wp-content/uploads/2019/03/RN_ADNYJournalArticle_5c-e1552382222231.jpg",
+      "https://www.outlookindia.com/traveller/wp-content/uploads/2018/07/Feature.jpg"
+  ]  },
   {
     "id": 16,
     "title": "Taj Hotel",
