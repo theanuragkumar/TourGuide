@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "KrogerTour",
-    "slug": "KrogerTour",
+    "name": "TourGuidev2",
+    "slug": "TourGuidev2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "tourguide",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -15,23 +16,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.theanuragkumar.KrogerTour"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.theanuragkumar.KrogerTour"
+      "config": {
+        "googleMaps": {
+          "apiKey": "API_KEY"
+        }
+      },
+      "package": "com.slashflash.TourGuidev2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "5f672aaf-fc1a-4641-bf18-869a43048376"
+        "projectId": "903efe34-f237-46bf-b433-705af32e1f25"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
