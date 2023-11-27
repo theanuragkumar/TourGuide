@@ -8,7 +8,7 @@ import app from '../app.json'
 
 export default function Page() {
 const nav=useNavigation();
- const [touristSpots,setTouristSpot]=useState(route2Places);
+ const [touristSpots,setTouristSpot]=useState(route1Places);
 
 
  const [destination, setDestination] = useState(touristSpots[touristSpots.length-1].coordinates);
@@ -29,7 +29,7 @@ const [origin, setOrigin] = useState(touristSpots[0].coordinates);
            <MapViewDirections
           origin={origin}
           destination={destination}
-          apikey={"AIzaSyB77YshREiafXEk_-zvPM55DdnYpzbelak"}
+          apikey={process.env.MAPS_API_KEY}
           strokeWidth={4}
           strokeColor="blue"
         />
