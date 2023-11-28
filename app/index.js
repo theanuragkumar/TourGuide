@@ -1,22 +1,28 @@
 import React, { useState } from 'react';
 import MapView,{ Marker, PROVIDER_GOOGLE } from 'react-native-maps';
-import { StyleSheet, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 import { useNavigation } from 'expo-router';
 import { highlightedPlaces, route1Places, route2Places } from '../highlightedPlaces';
 import MapViewDirections from 'react-native-maps-directions';
-import app from '../app.json'
 
 export default function Page() {
 const nav=useNavigation();
- const [touristSpots,setTouristSpot]=useState(route1Places);
+ const [touristSpots,setTouristSpot]=useState(route2Places);
 
+ const destination=React.useMemo(()=>touristSpots[touristSpots.length-1].coordinates,[touristSpots]);
+ const origin=React.useMemo(()=>touristSpots[0].coordinates,[touristSpots]);
 
- const [destination, setDestination] = useState(touristSpots[touristSpots.length-1].coordinates);
-
-const [origin, setOrigin] = useState(touristSpots[0].coordinates);
 
   return (
     <View style={styles.container}>
+      <View >
+        <Button
+        onPress={()=>{setTouristSpot(route1Places)}} title='Route 1 : Taj to TCS, Powai'
+        color='#4a2ad2'      
+        />
+        <Button style={styles.button} onPress={()=>{setTouristSpot(route2Places)}} title='Route 2 : TCS, Banyan Park to Taj'
+        color='#4a2ad2'/>
+      </View>
       <MapView style={styles.map}
       provider={PROVIDER_GOOGLE} 
       initialRegion={{
@@ -29,9 +35,9 @@ const [origin, setOrigin] = useState(touristSpots[0].coordinates);
            <MapViewDirections
           origin={origin}
           destination={destination}
-          apikey={process.env.MAPS_API_KEY}
+          apikey={"key"}
           strokeWidth={4}
-          strokeColor="blue"
+          strokeColor="#4a2ad2"
         />
         
   {touristSpots?.map((spot) => (
@@ -44,9 +50,11 @@ const [origin, setOrigin] = useState(touristSpots[0].coordinates);
             }}
           />
         ))}
-
+     
         </MapView>
-
+        <View style={styles.view}>
+        {touristSpots?.map((spot,index)=>(<Text style={styles.text}  key={spot.id}>{(index+1) + " : " +spot.title}</Text>))}
+      </View>
     </View>
   );
 }
@@ -59,4 +67,18 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
+  view:{
+    position:'absolute',
+    width:"40%",
+    backgroundColor:'#4a2ad2',
+    bottom:10,
+    left:10,
+    padding:5,
+  },
+  text:{
+    color:'white'
+  },
+  button:{
+    backgroundColor:'#4a2ad2'
+  }
 });
